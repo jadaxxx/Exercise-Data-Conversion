@@ -1,35 +1,59 @@
-# Exercise-Data-Conversion
+Exercise – Data Conversion
 
-# Open this: https://dacanayjadme.dcism.org/
+A simple web application that converts an uploaded CSV file into structured JSON data based on the provided Data Mapping specifications.
 
+🌐 Live Application
 
-INSTRUCTIONS: Given the data map, create a simple web application that will upload an existing CSV and transform it into a JSON format (You may use any technology for this exercise.).
+Website: https://dacanayjadme.dcism.org/
 
-Download the given csv file: exercise_datamap.csv Download exercise_datamap.csv 
+📌 Project Overview
 
-Add your full name + Schedule on your index.html
+This project is developed as part of the Data Map Exercise. It allows users to upload an existing CSV file, process its contents, apply the required data transformations, and convert the resulting records into JSON format.
 
-Data Map:
+The application follows the provided data mapping specifications to ensure that each CSV field is correctly renamed, formatted, and converted to its corresponding JSON data type.
 
-Source Field (CSV)
+🎯 Objectives
+Upload an existing CSV file.
+Read and process CSV records.
+Transform CSV fields into their corresponding JSON properties.
+Apply the required data types and transformation rules.
+Generate structured JSON output.
+📂 Required CSV File
 
-Target Field (JSON)
+Download the provided CSV file before using the application:
 
-Target Data Type
+Download exercise_datamap.csv
 
-Transformation Rule
+🗺️ Data Mapping Specifications
 
+The following table defines how the CSV fields should be converted into JSON properties.
+
+Source Field (CSV)	Target Field (JSON)	Target Data Type	Transformation Rule
 student_id	studentId	Integer	Convert string to integer
-first_name	firstName	String	Capitalize first letter
-last_name	lastName	String	Capitalize first letter
+first_name	firstName	String	Capitalize the first letter
+last_name	lastName	String	Capitalize the first letter
 course	program	String	Convert to full program name
 year_level	yearLevel	Integer	Convert string to integer
 email	emailAddress	String	Convert to lowercase
 tuition_balance	outstandingBalance	Number	Convert to decimal with 2 decimal places
-host your exercise to the dcism server: [lastname+first 2 letters of your first name+dme].dcism.org
+⚙️ How to Use
+Open the live application.
+Upload the provided exercise_datamap.csv file.
+Allow the application to process and transform the CSV records.
+Review the generated JSON output.
+Download or copy the resulting JSON data, if supported by the application.
+🚀 Deployment
 
-example:
+The application is hosted on the DCISM server.
 
-Doe John would be doejome.dcism.org
+Required hosting format:
 
-sample output: Data Map Exercise Example Output
+[lastname + first 2 letters of first name + dme].dcism.org
+
+Example:
+
+First Name: John
+Last Name: Doe
+Hosting Domain: doejome.dcism.org
+
+
