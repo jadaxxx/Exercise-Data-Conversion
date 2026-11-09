@@ -6,12 +6,6 @@ A simple web application that converts an uploaded CSV file into structured JSON
 
 Website: https://dacanayjadme.dcism.org/
 
-📌 Project Overview
-
-This project is developed as part of the Data Map Exercise. It allows users to upload an existing CSV file, process its contents, apply the required data transformations, and convert the resulting records into JSON format.
-
-The application follows the provided data mapping specifications to ensure that each CSV field is correctly renamed, formatted, and converted to its corresponding JSON data type.
-
 🎯 Objectives
 Upload an existing CSV file.
 Read and process CSV records.
